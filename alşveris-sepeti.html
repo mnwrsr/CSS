@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/all.min.css">
+ 
+    <style>
+
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+   .sepet :hover{
+      color: lightskyblue;
+       
+   }
+.sepet td:first-child {
+        background-color: gray
+      }
+      .sepet td:nth-last-child(2) {background-color: gray;
+
+      }
+      .sepet td:last-child{
+        background-color: gray;
+    }
+    .sepet td:nth-child(3){
+        background-color: gray;
+    }
+    
+    .sepet td:nth-child(2){
+        background-color: gray;
+    }
+    .sepet td:nth-child(4){
+        background-color: gray;
+   
+      }
+      td.spt::before{
+            font: var(--fa-font-brands);
+            content:"📝";
+            margin-right: .5rem;
+            font-size: 1rem;
+      }
+
+        td.spt::after{
+            content:"🗑️";
+            
+        }
+        form > input{
+            background-color: rgb(196, 95, 95);
+
+        }
+     
+        form > input:hover{
+            background-color: bisque;
+
+        }
+        #Alışverişe-Devam{ 
+            font: var(--shopping);
+        }
+     
+
+
+    </style>
+</head>
+<body>
+    <table border="1" width="500">
+        <tr class="sepet">
+            <td>Ürün Kodu</td>
+           <td>Ürün Adı</td>
+            <td>Miktar</td>
+            <td>Birim Fiyatı</td>
+            <td>Ara Toplam</td>
+             <td></td>
+               
+        </tr>
+        <tr>
+             
+            <td>154654</td>
+            <td>Notebook</td>
+            <td>1</td>
+            <td>5400₺</td>
+            <td>5400₺</td>
+            <td class="spt"></td>
+               
+             
+        </tr>
+        <tr>
+            
+            <td>456466</td>
+            <td>Klavye</td>
+            <td>2</td>
+            <td>80₺</td>
+            <td>160₺</td>
+            <td class="spt"></td>
+                  
+            
+        </tr>
+        <tr>
+            
+            <td>564646</td>
+            <td>Monitör</td>
+            <td>1</td>
+            <td>700₺</td>
+            <td>700₺</td>
+            <td class="spt"></td>
+               
+        </tr>
+        <tr>
+            <td>123598</td>
+            <td>Mouse</td>
+            <td>2</td>
+            <td>50₺</td>
+            <td>100₺</td>
+            <td class="spt"></td>
+               
+        </tr>
+        <tr>
+            <td>613448</td>
+            <td>Play Station</td>
+            <td>1</td>
+            <td>2500₺</td>
+            <td>2500₺</td>
+            <td class="spt"></td>
+               
+        </tr>
+         
+        <tr>
+            <td>788799</td>
+            <td>Usb Bellek</td>
+            <td>3</td>
+            <td>120₺</td>
+            <td>360tl</td>
+            <td class="spt"></td>
+               
+
+        </tr>
+        <tr class="sepet">
+            <td colspan="3">Toplam</td>
+            <td>9220₺</td>
+           <td></td>
+           <td></td>
+        </tr>
+    </table>
+<br>
+   
+   <form action="shop">
+    
+        <i class="fa-solid fa-cart-shopping"></i>
+        <input type="submit" value="Alışverişe Devam ">
+
+        <i class="fa-solid fa-credit-card"></i>
+        <input type="submit" value="Ödemeye Geç" required>
+    </form>
+    
+</body>
+</html>

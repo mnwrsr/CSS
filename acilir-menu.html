@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+:root{
+    --color1: #66282a;
+    --color2: #dec029;
+    --color3: #c6c1b0;
+}
+
+nav.menu{
+    background-color: var(--color1);
+    text-align:center;
+}
+
+nav.menu ul{
+    list-style:none;
+    display:inline-block;
+    padding:0;
+    margin:0;
+}
+
+nav.menu > ul > li{
+    display:inline-block;
+    background-color:var(--color2);
+}
+
+.menu > ul > li
+ul > li
+
+nav.menu > ul > li > a{
+    display:inline-block;
+    padding:0.5rem 1rem;
+    
+}
+
+nav.menu ul li ul{
+    padding:1rem;
+    text-align:left;
+    display:none;
+    position: absolute;
+    background-color:var(--color3);
+}
+
+nav.menu a{
+    text-decoration:none;
+    color:var(--color1);
+}
+
+nav.menu li:hover{
+    background-color:var(--color3);
+}
+
+nav.menu li:hover ul{
+    display:block;
+}
+nav.menu li ul li:hover{
+    background-color:var(--color2);
+}
+
+
+    </style>
+</head>
+<body>
+  <nav class="menu">
+    <ul>
+      <li><a href="#">Ana Sayfa</a></li>
+      <li><a href="#">Ürünler</a>
+          <ul>
+              <li><a href="#">Notebook</a></li>
+              <li><a href="#">Monitör</a></li>
+              <li><a href="#">Mouse</a></li>
+              <li><a href="#">Klavye</a></li>
+          </ul>
+      </li>
+      <li><a href="#">Hakkımızda</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">İletişim</a></li>
+    </ul>
+  </nav>
+ 
+</body>
+</html>

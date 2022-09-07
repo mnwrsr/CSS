@@ -1,0 +1,23 @@
+*{
+    color: brown;
+}
+
+/****** HEADER ******/
+h1{
+
+
+    font-size: 3rem ;
+    text-align: center;
+}
+p.aaa{
+    font-size: 1.3rem;
+    background-color: chartreuse;
+    color: darkred;
+
+}
+.bbb{
+    font-weight: bold;
+
+}
+/****** NAVBAR ******/
+
